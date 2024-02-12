@@ -3,6 +3,7 @@
 }
 body{
     margin: 0;
+    background-color: #dfdddd;
 }
 nav{
     display: flex;
@@ -252,6 +253,8 @@ font-size: 1.6rem;
  .card-nested p{
     font-size: small;
  }
+ 
+
  .card-product-nested-card-four img{
   width: 280px;
   height: 280px;
@@ -262,4 +265,8 @@ font-size: 1.6rem;
    color:rgb(87, 87, 218);
    margin-left: 2px;
    padding: 20px;
+ }
+ .main-two{
+    position: relative;
+    top: -850px;
  }
