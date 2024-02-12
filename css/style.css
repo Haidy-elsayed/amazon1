@@ -157,31 +157,57 @@ margin-top: 20px;
 font-size: 1.6rem;
 }
  /* imge slider */
+ .image-container {
+    position: relative;
+}
 
- .image-container{
+.image-list {
+    display: flex;
+    overflow: hidden;
+}
 
- }
- .image-list{
- display: flex;
- }
- .image-item{
-  min-width: 100%;
- }
- .image-item img{
-width: 100%;
-height: 100%;
-   
- }
+.image-item {
+    min-width: 100%;
+    height: 600px;
+    transition: transform 0.3s;
+}
 
- /* .carousel-control-prev-icon
- {
-    margin-top: -290px;
-    margin-left: -120px;
- }
- .carousel-control-next-icon{
-    margin-top: -290px;
-    margin-left: 120px;
- } */
+.image-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-btn-container {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.slider-btn {
+    border: 1px solid transparent;
+    padding: 100px 20px;
+    font-size: 50px;
+    font-weight: 300;
+    background-color: transparent;
+    color: #000;
+    
+}
+
+.slider-btn i {
+    font-weight: 900;
+}
+
+.slider-btn:focus {
+    border-color: seagreen;
+    box-shadow: -2px -2px 2px rgb(230, 227, 227),
+        2px 2px 2px white;
+    margin: 2px;
+}
+
+ 
  /* product card-container */
  .main{
     position: relative;
@@ -214,11 +240,11 @@ height: 100%;
  }
  .card-nested{
     /* width: 120px;
-    height: 102px; */
+    height: 102px;  */
  }
  .card-nested img{
-    /* width: 100%;
-    height: 100%; */
+     width: 100%;
+    height: 100%; 
     width: 131px;
     height: 102px;
     object-fit: cover;
@@ -230,6 +256,7 @@ height: 100%;
   width: 280px;
   height: 280px;
   display: flex;
+  margin-left: 15px;
  }
  .card-link{
    color:rgb(87, 87, 218);
