@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-}
+} 
 body{
     margin: 0;
     background-color: #dfdddd;
@@ -82,7 +82,7 @@ nav{
     height: 40px;
     justify-content: space-between;
     border-radius: 3px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .search-container:hover{
     outline: 3px solid rgb(260,190, 133);
@@ -268,5 +268,14 @@ font-size: 1.6rem;
  }
  .main-two{
     position: relative;
-    top: -850px;
+    top: -840px;
  }
+ .main-three{
+    position: relative;
+    top: -1180px;
+ }
+ .main-four{
+    position: relative;
+    top: -1510px;
+ } 
+ 
